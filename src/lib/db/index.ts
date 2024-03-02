@@ -1,5 +1,5 @@
 import { drizzle } from 'drizzle-orm/libsql';
-import { createClient } from '@libsql/client/web';
+import { createClient } from '@libsql/client';
 import * as schema from './schema';
 import { DATABASE_URL, DATABASE_AUTH_TOKEN } from '$env/static/private';
 import { remember } from '@epic-web/remember';
