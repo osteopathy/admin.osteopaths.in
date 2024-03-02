@@ -55,7 +55,7 @@
                 {course.label}
             </h3>
             <ul class="flex pl-6 flex-col gap-y-2 text-gray-600 font-medium text-xl">
-                {#each course.batches.toReversed() as batch}
+                {#each [...course.batches.reverse()] as batch}
                     <li class="">
                         <a class="text-blue-500 underline underline-offset-2" href="/app/{course.id}/{batch.year}">{batch.year}-{batch.label}</a>
                     </li>
