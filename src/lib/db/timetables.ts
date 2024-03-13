@@ -6,6 +6,7 @@ import {
 	PUBLIC_FIREBASE_PROJECT_ID as FIREBASE_PROJECT_ID,
 	PUBLIC_FIREBASE_STORAGE_BUCKET as FIREBASE_STORAGE_BUCKET,
 } from "$env/static/public"
+
 import { initializeApp } from 'firebase/app';
 
 import {
